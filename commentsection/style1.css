@@ -1,0 +1,90 @@
+body{
+    background-color: #eee;
+    }
+    textarea{
+    width:837px;
+    height: 150px;
+    background-color:white;
+    resize:none;
+    border-radius : 5px;
+    border: 2px solid gray;
+    }
+    
+    button{
+    width:200px;
+    height: 30px;
+    background-color: #282828;
+    border:none;
+    color: #fff;
+    font-family:arial;
+    font-weight:400;
+    cursor:pointer;
+    }
+    
+    .comment-box{
+    width:845px;
+    padding: 20px;
+    margin-bottom: 4px;
+    background-color: rgb(248, 240, 240);
+    border-radius:4px;
+    position: relative;
+    }
+    
+    .comment-box p{
+    font-family:arial;
+    font-size:14px;
+    line-height:16px;
+    color: #282828;
+    font-weight:100;
+    }
+    
+    .edit-form{
+    position: absolute;
+    top:0px;
+    right:10px;
+    }
+    
+    .edit-form button{
+    width:40px;
+    height:20px;
+    color: #282828;
+    background-color: #ffff;
+    opacity: 0.7;
+    }
+    
+    .edit-form button:hover{
+    opacity:1;
+    }
+    
+    .delete-form{
+    position: absolute;
+    top:0px;
+    right:60px;
+    }
+    
+    .delete-form button{
+    width:40px;
+    height:20px;
+    color: #282828;
+    background-color: #ffff;
+    opacity: 0.7;
+    }
+    
+    .delete-form button:hover{
+    opacity:1;
+    }
+
+    .back{
+        
+        font-size: 20px;
+        color : black;
+        text-decoration: none;
+        background-color : transparent;
+       
+    
+    }
+
+    .back:hover{
+        color : rgba(4, 99, 4, 0.856);
+        cursor:pointer;
+    }

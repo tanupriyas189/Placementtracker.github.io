@@ -1,0 +1,206 @@
+*{
+    box-sizing : border-box;
+    }
+
+    body{
+       margin : 0px;
+       padding : 0px;
+       font : poppins;
+    }
+
+    #main{
+     width : 100%;
+     height : 80px;
+     position : relative;
+
+     }
+     nav{
+       display : flex;
+       justify-content : space-around;
+       align-items : center;
+       position : fixed;
+       top : 0;
+       left : 0;
+       width : 100%;
+       background-color : white;
+       box-shadow : 5px 10px 30px rgba(0,0,0,0.1);
+       z-index:1;
+     }
+
+    .logo img {
+    height : 45px;
+    }
+
+    .menu{
+      list-style : none;
+      display : flex;
+    }
+
+    .menu li a{
+       height : 40px;
+       line-height : 43px;
+       margin : 3px;
+       padding : 0px 22px;
+       display : flex;
+       font-size : 1em;
+       text-transform : uppercase;
+       font-weight : 500;
+       letter-spacing : 1px;
+       color : black;
+    }
+
+    a{
+          text-decoration : none;
+    }
+
+    .menu li a:hover{
+     background-color : green;
+     color : white;
+     box-shadow : 0px 0px 15px rgba(0 , 200 , 0 , 0.5);
+     transition : all ease 0.2s;
+  }
+
+    .btn{
+      width : 190px;
+      font-size : 20px;
+      height : 44px;
+      display : flex;
+      justify-content : center;
+      align-items : center;
+      color : white;
+      background-color : green;
+      border-radius : 5px;
+      box-shadow:5px 10px 30px rgba(0 , 100 , 0 , 0.2);
+    }
+
+     .btn:hover{
+      background-color : rgb(0 , 200 , 0);
+      transition : all ease 0.2s;
+    }
+
+
+      .btn1 {
+          background-color : transparent;
+          border : none;
+          font-size : 20px;
+      }
+      
+      .login-btn {
+          position : relative;
+          bottom : 10px;
+          left : 15px;
+          width : 190px;
+         font-size : 20px;
+         height : 44px;
+         display : flex;
+         justify-content : center;
+         align-items : center;
+         color : green;
+         background-color : transparent;
+         border : 2px solid green;
+         border-radius : 5px;
+      }
+
+      .login-btn:hover{
+        background-color : green;
+        color : white;
+        cursor : pointer;
+         transition : all ease 0.2s;
+      }
+
+      table {
+  border-collapse: collapse;
+  font-family: helvetica
+}
+
+td,
+th {
+  border: 1px solid;
+  padding: 10px;
+  width : 180px;
+  
+  background: white;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.table-container {
+  position: relative;
+  max-height: 500px;
+  margin-top: 5%;
+  margin-left:10%;
+  width: 80%;
+  overflow: scroll;
+
+}
+
+thead th {
+
+  top: 0;
+  z-index: 2;
+  background: hsl(20, 50%, 70%);
+}
+
+thead th:first-child {
+  left: 0;
+  z-index: 3;
+}
+
+tfoot {
+  position: -webkit-sticky;
+  bottom: 0;
+  z-index: 2;
+}
+
+tfoot td {
+  bottom: 0;
+  z-index: 2;
+  background: hsl(20, 50%, 70%);
+}
+
+tfoot td:first-child {
+  z-index: 3;
+}
+
+tbody {
+  overflow: scroll;
+  height: 200px;
+}
+
+/* MAKE LEFT COLUMN FIXEZ */
+tr> :first-child {
+  /*position: -webkit-sticky;*/
+  
+  background: hsl(180, 50%, 70%);
+  left: 0;
+}
+
+/* don't do this */
+tr> :first-child {
+  box-shadow: inset 0px 1px black;
+}
+
+
+
+     
+      .cfl{
+        float : left;
+        padding-left:10px;
+        margin: 1%;
+        width:31%;
+        height : 170px;
+        font-size:20px;
+        font-weight :500;
+      }
+      footer{
+        width : 100%;
+        top:100px;
+        font-weight:500;
+        height : 190px;
+        background-color : rgb(200,200,200);
+        position : relative ;
+        display : flex;
+      }
+   
+    
+    
